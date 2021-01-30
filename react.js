@@ -5,5 +5,5 @@ Class Zane extends React.Component{
     return(<h1>test</h1>);
   }
 }
-
-export default Zane;
+           
+ReactDOM.render(<Zane />, document.getElementById('test'));
